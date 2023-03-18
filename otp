@@ -1,0 +1,12 @@
+b=document.querySelector('div');
+function otp(){
+    var d='0123456789';   // 0 to 9 random numbers select
+    ot1=' '   // empty set 
+for( i=0;i<6;i++)    // 6 digit otp
+{
+ot1+=d[Math.floor(Math.random() *10)]; add empty set to random  values  floor whole number not decimal
+}
+return ot1;   // return aadded set
+
+}
+b.innerHTML=otp(); call function

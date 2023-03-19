@@ -1,0 +1,2 @@
+let a=prompt('enter color')
+document.body.style.background=a;
